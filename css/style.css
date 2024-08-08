@@ -107,7 +107,7 @@ h1, h2, h3{
 .header {
     position: relative;
     height: 95vh;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url('../img/header-image.jpg');
+    background:  linear-gradient(rgba(176, 166, 166, 0.283), rgba(176, 166, 166, 0.192)) ,url('../img/header-image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -160,12 +160,13 @@ h1, h2, h3{
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2));
+    background: linear-gradient(rgba(29, 28, 28, 0.112), rgba(13, 12, 12, 0.094));
 }
 
 .header-content h1{
     text-transform: uppercase;
     font-weight: 700;
+    
 }
 .header-content p{
     text-transform: uppercase;
@@ -418,6 +419,7 @@ h1, h2, h3{
 .form-wrapper .company-address img{
     max-width: 90%;
     min-height: 40rem;
+    height: 20%;
     object-fit: cover;
     object-position: right;
 }
