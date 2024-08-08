@@ -419,7 +419,7 @@ h1, h2, h3{
 .form-wrapper .company-address img{
     max-width: 90%;
     min-height: 40rem;
-    height: 20%;
+    /* height: 20%; */
     object-fit: cover;
     object-position: right;
 }
